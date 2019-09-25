@@ -5,3 +5,10 @@ E:\Prudential\CityWeatherAnalysis\CityWeatherAnalysis\obj\Debug\CityWeatherAnaly
 E:\Prudential\CityWeatherAnalysis\CityWeatherAnalysis\obj\Debug\CityWeatherAnalysis.csproj.CoreCompileInputs.cache
 E:\Prudential\CityWeatherAnalysis\CityWeatherAnalysis\obj\Debug\CityWeatherAnalysis.exe
 E:\Prudential\CityWeatherAnalysis\CityWeatherAnalysis\obj\Debug\CityWeatherAnalysis.pdb
+E:\GIT\CityWeatherAnalysis\CityWeatherAnalysis\bin\Debug\CityWeatherAnalysis.exe.config
+E:\GIT\CityWeatherAnalysis\CityWeatherAnalysis\bin\Debug\CityWeatherAnalysis.exe
+E:\GIT\CityWeatherAnalysis\CityWeatherAnalysis\bin\Debug\CityWeatherAnalysis.pdb
+E:\GIT\CityWeatherAnalysis\CityWeatherAnalysis\obj\Debug\CityWeatherAnalysis.csprojAssemblyReference.cache
+E:\GIT\CityWeatherAnalysis\CityWeatherAnalysis\obj\Debug\CityWeatherAnalysis.csproj.CoreCompileInputs.cache
+E:\GIT\CityWeatherAnalysis\CityWeatherAnalysis\obj\Debug\CityWeatherAnalysis.exe
+E:\GIT\CityWeatherAnalysis\CityWeatherAnalysis\obj\Debug\CityWeatherAnalysis.pdb

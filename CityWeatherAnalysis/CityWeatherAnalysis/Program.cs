@@ -29,10 +29,12 @@ namespace CityWeatherAnalysis
                 // Create an array to store city details
                 string[] cityDetails = new string[2];
 
+                // Iterate for each city line item from file
                 foreach (string city in cityLineItem)
                 {
                     cityDetails = city.Split('=');
 
+                    // Make HTTP request
                     HttpWebRequest request = (HttpWebRequest)WebRequest.Create(URL + queryParameterID + cityDetails[0] + queryParameterAppID + appID);
                     try
                     {
@@ -41,12 +43,13 @@ namespace CityWeatherAnalysis
                         {
                             StreamReader reader = new StreamReader(responseStream, System.Text.Encoding.UTF8);
 
+                            // Create directory if it does not exist
                             if (!Directory.Exists(outputFilePath + @"\" + cityDetails[1]))
                             {
-                                Console.WriteLine(currentDate);
                                 Directory.CreateDirectory(outputFilePath + @"\" + cityDetails[1]);
                             }
 
+                            // Write the ouput in json file
                             File.WriteAllText(outputFilePath + @"\" + cityDetails[1] + @"\" + cityDetails[1] + "_" + currentDate + ".json", reader.ReadToEnd());
 
                         }
@@ -65,7 +68,7 @@ namespace CityWeatherAnalysis
                     }
 
                 }
-
+                Console.WriteLine("Execution completed successfully. Press any key to continue.");
                 char c = Console.ReadKey().KeyChar;
             }
             catch(Exception e)
